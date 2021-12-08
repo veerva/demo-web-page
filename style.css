@@ -1,0 +1,62 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(media/background.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+.dropdown {
+  float: right;
+  padding: relative;   
+  overflow: hidden;
+}
+
+/* Dropdown button my wish i can keep anything */
+.dropdown .dropbtn {
+  font-size: 35px;
+  border: none;
+  outline: none;
+  color: royalblue;
+  padding-left: 85px;
+  background-color: inherit;
+  font-family: inherit; /* vertical align like in phns */
+  margin: 0; /* Imp for vertical align on mobile phones */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 5px 12px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Adding a grey background color to dropdown links as we move - "hover" */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
